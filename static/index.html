@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Video</title>
+</head>
+<body>
+    <h1>Upload a Video</h1>
+    <form action="/upload-video/" method="post" enctype="multipart/form-data">
+        <label for="file">Video file:</label>
+        <input type="file" name="file" id="file" required><br><br>
+        <label for="username">Name (optional):</label>
+        <input type="text" name="username" id="username"><br><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
